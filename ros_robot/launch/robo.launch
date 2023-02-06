@@ -1,0 +1,8 @@
+<launch>
+
+    <!--设置参数-->
+    <param name="robot_description" textfile="$(find ros_robot)/urdf/urdf/urdf01.urdf" />
+
+    <node pkg = "rviz" type = "rviz" name = "rviz"/>
+
+</launch>
